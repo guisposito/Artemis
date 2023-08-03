@@ -1,3 +1,4 @@
+/*Reseta padrões de css*/
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +9,10 @@ body{
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+}
+#container {
+    max-width:98%;
+    margin: 0 auto;
 } 
 
 a {
@@ -21,7 +26,6 @@ a:hover {
 ul, ol{
     list-style: none;
 }
-
 header {
     background-color: #072AD8;
     height: 60px;
@@ -33,11 +37,6 @@ header {
     border-radius: 0px 0px 5px 5px;
     margin-bottom: 50px;
 }
-#container {
-    max-width:98%;
-    margin: 0 auto;
-}
-
 #dropdown:hover .submenu{
     display: block;
 }
@@ -123,3 +122,4 @@ article {
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
+ 
